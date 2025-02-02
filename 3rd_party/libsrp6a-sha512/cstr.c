@@ -1,7 +1,9 @@
 #include <stdlib.h>
 #include <string.h>
 
+#ifdef HAVE_CONFIG_H
 #include "config.h"
+#endif
 #include "cstr.h"
 
 #define EXPFACTOR	2		/* Minimum expansion factor */
